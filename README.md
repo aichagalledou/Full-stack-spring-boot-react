@@ -29,7 +29,7 @@ Coté base de données les tables sont créés comme suit:
 
 ![image](https://user-images.githubusercontent.com/107515094/175869995-c35a0bc5-6b34-4c92-8373-46afc0a0b4de.png)
 
-# Les codes Sources se trouve ci-dessous sont à télécharger ou clonner et tester sur votre machine
+# Les codes Sources qui se trouvent ci-dessous sont à télécharger ou clonner et tester sur votre machine
 
 Le code de la partie SpringBoot : modelsis-springboot-fullstack
 
