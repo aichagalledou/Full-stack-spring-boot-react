@@ -83,13 +83,13 @@ spring.datasource.username & spring.datasource.password properties sont les mêm
 
 ## 1-Dans le package com.fullstacktest.modelsisspringboot.entity on défnit les classes Product et ProductType
 
-Pour la table prooduct_type, elle comporte  trois champs qui sont : id, name, created_date.
+Pour la table product_type, elle comporte  trois champs qui sont : id, name, created_date.
 
-La classe de la table prooduct_type est ProductType.java avec ces champs id, nameTypeProduct, dateCreated (ajout du champs List<Product> sur la classe pour récupérer les products sur un types de products ).
+La classe de la table product_type dont le modèle est ProductType.java avec ces champs id, nameTypeProduct, dateCreated et products qui presente une liste de produit contenue dans un ProductType (l'ajout du champs List<Product> sur la classe ProductType c'est pour récupérer les products sur un types de products ).
 
-Pour la table product, elle comporte  trois champs qui sont : id, name, created_date.
+Pour la table product, elle comporte  quatre champs qui sont : id, name, created_date et product_type_id.
 	
-La classe de la table product est Product.java avec ces champs id, nameProduct, dateCreated.
+La classe de la table product est Product.java avec ces champs id, nameProduct, dateCreated, productType (representant la clé étrangère).
 
 public class Product{
 	
