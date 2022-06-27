@@ -25,11 +25,11 @@ Saisir le mot de passe de la base posgresql.
 
 Dans les Modèles nous avons les classes suivantes:
 
-![image](https://user-images.githubusercontent.com/107515094/175875588-ddc3cf05-56f2-4329-9e1d-d578411469fc.png)
+![image](https://user-images.githubusercontent.com/107515094/175876343-31412495-96f9-46a2-b3a0-002328c2bfeb.png)
 
 Coté base de données les tables sont créés comme suit:
 
-![image](https://user-images.githubusercontent.com/107515094/175874046-ad829449-17e0-4ec7-bfac-952267fe738e.png)
+![image](https://user-images.githubusercontent.com/107515094/175875762-b4553498-c63e-45e7-9c24-d88e69505020.png)
 
 # Les codes Sources qui se trouvent ci-dessous sont à télécharger ou clonner et tester sur votre machine
 
