@@ -185,6 +185,8 @@ Se déplacer vers le dossier où se trouve le projet et ensuite faire les comman
 installer le node_module (connexion internet requis) avec la commande suivante:
 	
 *commande:> npm install
+	
+![image](https://user-images.githubusercontent.com/107515094/175841736-52e95f5e-fe67-4491-bd96-cb208c29f08e.png)
 
 Exécution du projet
 	
