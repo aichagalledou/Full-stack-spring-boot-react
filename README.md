@@ -117,9 +117,13 @@ Et dans les packages com.fullstacktest.modelsisspringboot.response et com.fullst
 Operation	Endpoint			Description
 	
 GET	      	/products			Retourne un tableau de Produit.
+	
 POST		/products/{productTypeId}	Insère un nouveau produit.
+	
 POST		/productTypes/{id}		Insère un nouveau Type de Produit.
+	
 PUT		/products/{id}/{productTypeId}	Met à jour un Produit.
+	
 DELETE		/products/{id}			Pour supprimer un Produit
 
 ### 4- Exécution du projet Backend :
@@ -192,6 +196,8 @@ Exécution du projet
 	
 *commande:> npm start
 	
+![image](https://user-images.githubusercontent.com/107515094/175841917-affa7662-8716-4994-ad77-a5260dfbd819.png)
+
 ### 3- Test Partie Front-end :
 
 #Add ProductType Page
