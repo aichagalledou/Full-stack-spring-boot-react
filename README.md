@@ -181,7 +181,13 @@ Pour le select liste on install le react-select
 Se déplacer vers le dossier où se trouve le projet et ensuite faire les commandes suivantes:
 
 *commande:> cd modelsis-react-fullstack
+	
+installer le node_module (connexion internet requis) avec la commande suivante:
+	
+*commande:> npm install
 
+Exécution du projet
+	
 *commande:> npm start
 	
 ### 3- Test Partie Front-end :
