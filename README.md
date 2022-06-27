@@ -208,7 +208,7 @@ Exécution du projet
 	
 ![image](https://user-images.githubusercontent.com/107515094/175822232-76ce7866-1701-4d39-898e-3166db282c70.png)
 
-#Liste Product Page
+#Product List Page
 
 ![image](https://user-images.githubusercontent.com/107515094/175834413-a52292e9-f0c9-4259-8eb3-17a7bcf5f2f0.png)
 
