@@ -194,8 +194,9 @@ installer le node_module (connexion internet requis) avec la commande suivante:
 Exécution du projet
 	
 *commande:> npm start
-	
-![image](https://user-images.githubusercontent.com/107515094/175841917-affa7662-8716-4994-ad77-a5260dfbd819.png)
+
+![image](https://user-images.githubusercontent.com/107515094/175843388-cc7dd8ab-0457-4d23-a72c-4974b9c9f486.png)
+![image](https://user-images.githubusercontent.com/107515094/175843450-a0e6cae0-f5d4-4e76-b914-6fc135d2f2a3.png)
 
 ### 3- Test Partie Front-end :
 
