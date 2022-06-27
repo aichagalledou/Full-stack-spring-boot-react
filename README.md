@@ -134,12 +134,11 @@ Se déplacer vers le dossier où se trouve le projet et ensuite faire la command
 
 *commande:> cd modelsis-springboot-fullstack
 
-![image](https://user-images.githubusercontent.com/107515094/175834128-0d45baad-fe4e-4409-8480-b5869b134ffd.png)
-
 Exécuter la commande suivante:
 
 *commande:> mvn spring-boot:run
-	
+
+![image](https://user-images.githubusercontent.com/107515094/175834128-0d45baad-fe4e-4409-8480-b5869b134ffd.png)
 ![image](https://user-images.githubusercontent.com/107515094/175834214-4bf9646d-3e87-404f-8513-da3d9e0f39b4.png)
 
 ### 5- Test de quelques ends-points sur Postman
