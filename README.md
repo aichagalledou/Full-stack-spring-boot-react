@@ -5,11 +5,11 @@
 
 ## Partie Base de Données 
 
-Création de de la base "product_management" sur prosgresql
+Création de la base "product_management" sur prosgresql
 
 *commande:> psql -U postgres
 
-saisir le mot de passe de la base posgresql
+Saisir le mot de passe de la base posgresql.
 
 *commande:> \l
 
@@ -29,9 +29,9 @@ saisir le mot de passe de la base posgresql
 
 java, Eclipse IDE for Java Developers, lombok, maven
 
-Téléchager et installer https://projectlombok.org/download sur le projet
+Téléchager et installer https://projectlombok.org/download sur le projet.
 
-Télécharger et dézipper maven https://maven.apache.org/download.cgi et le mettre dans la variable d'environnement
+Télécharger et dézipper maven https://maven.apache.org/download.cgi et le mettre dans la variable d'environnement.
 
 ## Sur éclipse : définition du nom du projet et des dépendances:
 
@@ -102,13 +102,13 @@ Par défaut, l'association @ManyToOne utilise FetchType.LAZY.
 
 #### 2- Créer des interfaces de référentiel (repository) pour le OneToMany
 	
-Dans le package com.fullstacktest.modelsisspringboot.repository, pour le mappage du OneToMany on défnit les classes référentiels ProductRepository.java et ProductTypeRepository.java pour interagir avec la base de données.
+Dans le package com.fullstacktest.modelsisspringboot.repository, pour le mappage du OneToMany, on défnit les classes référentiels ProductRepository.java et ProductTypeRepository.java pour interagir avec la base de données.
 	
-Avec ces classes nous pouvons  maintenant utiliser les méthodes de JpaRepository : save(), findOne(), findById(), findAll(), count(), delete(), deleteById()…  Nous implémenterons les méthodes dont on a besoin. L'implémentation est automatiquement avec Spring Data JPA .
+Avec ces classes nous pouvons  maintenant utiliser les méthodes de JpaRepository : save(), findOne(), findById(), findAll(), count(), delete(), deleteById()…  Nous implémenterons les méthodes dont on a besoin. L'implémentation est automatique avec Spring Data JPA .
 
 ### 3- Créer un contrôleur d'API Spring Rest.
   
- Dans le package com.fullstacktest.modelsisspringboot.controller, nous avons le contrôleur qui fournit des API pour les opérations CRUD : création, récupération, mise à jour, suppression dans ProductController.java
+ Dans le package com.fullstacktest.modelsisspringboot.controller, nous avons les contrôleurs qui fournit des API pour les opérations CRUD : création, récupération, mise à jour, suppression dans ProductController.java et création, récupération dans ProductTypeController.java 
 	
 Et dans les packages com.fullstacktest.modelsisspringboot.response et com.fullstacktest.modelsisspringboot.request les classes qui s'y trouve nous permettrons de créer notre API REST.
 	
